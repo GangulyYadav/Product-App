@@ -15,7 +15,7 @@ product.
 
 1. Clone the repository to your local machine:
    ```bash
-    git clone https://github.com/GangulyYadav/Product-App```
+    git clone https://github.com/GangulyYadav/Product-App
 
 3. Open Android Studio.
 
