@@ -37,13 +37,10 @@ product.
 
 3. Click on the `Run` button (green play icon) in the toolbar, or press `Shift` + `F10` to run the application.
 
-## Usage
-
-Describe how to use the application once it's running.
 
 ## Troubleshooting
 
-Provide troubleshooting tips for common issues users may encounter.
+If you find any problem with installation make sure to configure on gradle 8.0 and proper version specified in this file.
 
 ## Contributing
 
