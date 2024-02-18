@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Product Image -->
+    <ImageView
+        android:id="@+id/image_product_details"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/placeholder_image" />
+
+    <!-- Product Name -->
+    <TextView
+        android:id="@+id/text_product_name_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_product_details"
+        android:layout_margin="16dp"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Product Price -->
+    <TextView
+        android:id="@+id/text_product_price_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_product_name_details"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp" />
+
+    <!-- Product Description -->
+    <TextView
+        android:id="@+id/text_product_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_product_price_details"
+        android:layout_margin="16dp"
+        android:textSize="16sp" />
+
+    <!-- Discount -->
+    <TextView
+        android:id="@+id/text_product_discount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_product_description"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Discount: "
+        android:textSize="16sp" />
+
+    <!-- Rating -->
+    <TextView
+        android:id="@+id/text_product_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_product_discount"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Rating: "
+        android:textSize="16sp" />
+
+    <!-- Brand -->
+    <TextView
+        android:id="@+id/text_product_brand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_product_rating"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Brand: "
+        android:textSize="16sp" />
+
+    <!-- Category -->
+    <TextView
+        android:id="@+id/text_product_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_product_brand"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Category: "
+        android:textSize="16sp" />
+
+    <!-- Stock -->
+    <TextView
+        android:id="@+id/text_product_stock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_product_category"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Stockk: "
+        android:textSize="16sp" />
+
+
+</RelativeLayout>
